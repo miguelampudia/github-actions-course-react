@@ -11,6 +11,8 @@ jobs:
     env: 
         SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+    permissions:
+      contents: write
     steps: 
       - uses: actions/checkout@v2
       - name: Cache node-modules
@@ -24,7 +26,7 @@ jobs:
         uses: actions/setup-node@v1
         with: 
           node-version: "12.x"
-      - run: npm CI
+      - run: npm ci
       #- run: npm run format:check
       - run: npm test -- --coverage
         env:
