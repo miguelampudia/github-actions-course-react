@@ -12,8 +12,8 @@ jobs:
           title: Title
           body: Body
           assignees: |
-            alialaa
-            alialaa17
+            miguelampudia
+            appgate-miguel-ampudia
       - run: |
           echo ${{ steps.issue.outputs.issue }}
       - uses: ./.github/actions/hello
