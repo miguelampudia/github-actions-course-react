@@ -3,6 +3,7 @@ const github = require("@actions/github");
 
 async function run() {
   try {
+    core.debug("Debug message");
     const token = core.getInput("token");
     const title = core.getInput("title");
     const body = core.getInput("body");
