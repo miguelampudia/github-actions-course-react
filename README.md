@@ -1,4 +1,4 @@
-![](https://github.com/alialaa/github-actions-course-react/workflows/CI/badge.svg?branch=develop&event=push)
+![](https://github.com/miguelampudia/github-actions-course-react/workflows/CI/badge.svg?branch=develop&event=push)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
